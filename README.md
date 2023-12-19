@@ -1,4 +1,5 @@
 It's simple expression paser with possibility of defining variables. 
+
 Paser accepts 3 types of data:
 - numerical
 - text
@@ -11,4 +12,6 @@ An example program using a class and a DLL.
 To generate lexer (lexical) and grammar it's required to use
 https://github.com/lexxmark/winflexbison
 or https://sourceforge.net/projects/winflexbison/
+
+Remember to copy paste ParseScrDLL.dll to where the exemplary software is ParserTest.exe
  
