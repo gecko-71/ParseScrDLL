@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParseScrDLL", "ParseScrDLL.vcxproj", "{14945772-46BF-4055-B2F0-05DB1E4EFFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14945772-46BF-4055-B2F0-05DB1E4EFFCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14945772-46BF-4055-B2F0-05DB1E4EFFCD}.Debug|Win32.Build.0 = Debug|Win32
+		{14945772-46BF-4055-B2F0-05DB1E4EFFCD}.Release|Win32.ActiveCfg = Release|Win32
+		{14945772-46BF-4055-B2F0-05DB1E4EFFCD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A79E416C-4342-431D-BD5E-3B6858DFE169}
+	EndGlobalSection
+EndGlobal
