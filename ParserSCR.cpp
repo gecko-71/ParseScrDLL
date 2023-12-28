@@ -33,7 +33,7 @@ int ParserSCR::AddTokenB(TTokenType _tokenType, bool value)
 	TToken* _token = new TToken();
 	int count = 1;
 	count = tokenList->size();
-	_token->AddToken(_tokenType, value, nullptr, nullptr);
+	_token->AddTokenB(_tokenType, value, nullptr, nullptr);
 	tokenList->push_back(_token);
 	count = tokenList->size();
 	return count - 1;

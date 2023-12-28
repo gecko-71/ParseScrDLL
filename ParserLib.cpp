@@ -87,7 +87,6 @@ extern "C" __declspec(dllexport) int ParseExpression(char* input, TVariable *out
                 {
                     if (result->valueString.size() < 1000)
                     {
-                        //memcpy(output->varStr, result->valueString.c_str(), result->valueString.size());
                         result->valueString.copy(output->varStr, result->valueString.size());
                         output->varStr[result->valueString.size()] = '\0';
                     }
